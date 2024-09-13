@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,4 +7,7 @@
 :root {
     --primary:hsl(144.78deg 100% 14.53%);
     --secondary: hsl(144.78deg 100% 96.1%);
-  }
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
