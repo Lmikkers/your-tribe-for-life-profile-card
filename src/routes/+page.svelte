@@ -17,6 +17,29 @@
 
 </script>
 
+<main id="cardContainer">
+    <article class="cardFront">
+        <section>
+            <ul>
+                <li><a href="">Mail</a></li>
+                <li><a href="">Github</a></li>
+                <li><a href="">Insta</a></li>
+            </ul>
+    
+            <button on:click={flip}></button>
+        </section>
+
+        <section>
+            <h1>{data.persons.name}</h1>
+            <h2>{data.persons.surname}</h2>
+        </section>
+    </article>
+
+    <article class="cardBack">
+        <p>{data.persons.bio}</p>
+    </article>
+</main>
+
 <style>
     h1 {
         font-family: "Expletus Sans", sans-serif;
@@ -100,26 +123,3 @@
         grid-template-rows: repeat(6, 1fr); */
     }
 </style>
-
-<main id="cardContainer">
-    <article class="cardFront">
-        <section>
-            <ul>
-                <li><a href="">Mail</a></li>
-                <li><a href="">Github</a></li>
-                <li><a href="">Insta</a></li>
-            </ul>
-    
-            <button on:click={flip}></button>
-        </section>
-
-        <section>
-            <h1>{data.persons.name}</h1>
-            <h2>{data.persons.surname}</h2>
-        </section>
-    </article>
-
-    <article class="cardBack">
-        <p>{data.persons.bio}</p>
-    </article>
-</main>
