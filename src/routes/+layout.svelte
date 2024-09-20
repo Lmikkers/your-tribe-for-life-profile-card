@@ -3,3 +3,6 @@
 
     injectSpeedInsights();
 </script>
+
+
+<slot />

@@ -4,11 +4,11 @@
 
 <header>
     <nav>
-        <a href="">LM</a>
+        <a href="/">LM</a>
         <ul>
-            <li><a href="#">i-love-web</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="/i-love-web">i-love-web</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/contact">Contact</a></li>
         </ul>
     </nav>
 </header>
