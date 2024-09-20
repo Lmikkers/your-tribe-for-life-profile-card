@@ -1,4 +1,8 @@
 <script>
+    import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
+
+    injectSpeedInsights();
+
     export let data
 
     import Header from '$lib/header.svelte';
