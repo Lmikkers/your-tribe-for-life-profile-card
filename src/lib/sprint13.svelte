@@ -209,7 +209,7 @@
 </main>
 
 <style>
-    h2, h3 {
+    /* h2, h3 {
         margin-bottom: .5rem;
     }
     h4 {
@@ -242,5 +242,106 @@
     }
     .weekPlanning ul li {
         margin-bottom: .5rem;
+    } */
+    main {
+        font-family: Arial, sans-serif;
+        padding: 2rem;
+        background-color: #f9f9f9;
+        color: #333;
+        max-width: 1200px;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
     }
+
+    h2, h3 {
+        color: #0056b3;
+        margin-bottom: .75rem;
+    }
+
+    h4 {
+        margin-bottom: .5rem;
+    }
+
+    .weekOverzicht {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+        padding: 1rem;
+        background-color: #e6f2ff;
+        border-radius: 8px;
+    }
+    .weekOverzicht h3 {
+        margin: unset;
+    }
+    .weekOverzicht a {
+        text-decoration: none;
+        color: #0056b3;
+        font-weight: bold;
+    }
+    .weekOverzicht a:hover {
+        color: #003d80;
+    }
+    .learningQuestions {
+        margin-bottom: 1.5rem;
+        padding: 1rem;
+        background-color: #ffebcc;
+        border-radius: 8px;
+    }
+    .learningQuestions h3 {
+        font-family: 'Courier New', Courier, monospace;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #cc7a00;
+    }
+
+    .weekPlanning ol, 
+    .weekPlanning ul,
+    .learningQuestions ol {
+        margin-left: 1.5rem;
+        line-height: 1.75;
+        font-size: 1rem;
+    }
+
+    .weekPlanning {
+        padding: 1rem;
+        background-color: #f2f2f2;
+        border-left: 4px solid #cce7ff;
+        border-radius: 8px;
+        margin-bottom: 1.5rem;
+    }
+
+    .weekPlanning h4 {
+        margin-top: 1.5rem;
+        color: #0073e6;
+    }
+
+    .weekPlanning ul {
+        margin-left: 1.5rem;
+        list-style-type: disc;
+    }
+
+    .weekPlanning ul li {
+        margin-bottom: .5rem;
+    }
+
+    a {
+        color: #0056b3;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: #004080;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 1rem 0;
+        border-radius: 8px;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
 </style>
