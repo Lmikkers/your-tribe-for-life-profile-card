@@ -37,7 +37,7 @@
                 <ul>
                     <li><a href="mailto:larissa.mikkers@hva.nl"><img src="{mailIcon}" alt="mail icoon"></a></li>
                     <li><a href="https://github.com/{data.persons.github_handle}" target="_blank"><img src="{githubIcon}" alt="github logo icoon"></a></li>
-                    <li><a href="#"><img src="{instaIcon}" alt="instagram logo"></a></li>
+                    <li><a href=""><img src="{instaIcon}" alt="instagram logo"></a></li>
                 </ul>
 
                 <button on:click={toggleFlip}><img src="{turnIcon}" alt="button to go to the back of the card"></button>
@@ -59,7 +59,8 @@
 
 <style>
     main {
-        min-height: 100vh;
+        /* min-height: 100vh; */
+        height: calc(100vh - 5rem);
         display: grid;
         place-items: center;
         font-family: "Roboto", sans-serif;
@@ -111,7 +112,7 @@
     }
     ul a {
         text-decoration: none;
-        color: black;
+        color: var(--fontColor);
     }
     button {
         font-size: 1rem;
@@ -169,8 +170,9 @@
 
     /* wanneer de button wordt geklikt */
      /* nieuwe code */
-     .cards {
-        width: 40rem;
+    .cards {
+        width: 80vw;
+        max-width: 40rem;
         height: 25rem;
         position: relative;
         transform-style: preserve-3d;
@@ -215,6 +217,18 @@
     .showCard .cardBack{
         display: flex;
         transition: .75s ease-in-out;
+    }
+    /* IPAD/ TABLET */
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 3rem;
+        }  
+    }
+    /* PHONE */
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 2rem;
+        }
     }
 
 </style>

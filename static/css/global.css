@@ -5,8 +5,9 @@
     box-sizing: border-box;
 }
 :root {
-    --primary:#004a1f;
-    --secondary: #ebfff3;
+    --mainColor: orange;
+    --secondColor: #ebfff3;
+    --fontColor: #1e1d1d;
 
     --titleFont: "Expletus Sans", sans-serif;
     --mainFont: "Roboto", sans-serif;
@@ -22,6 +23,19 @@ h1 {
     font-weight: 500;
     letter-spacing: 1.2rem;
     font-family: var(--titleFont);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+    background: #1e1d1d;
+    text-align: center;
+    color: rgba(158, 158, 158, 0.603);
 }
 
 /* ANIMATIE TYPEWRITER  */

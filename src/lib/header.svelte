@@ -16,6 +16,8 @@
 <style>
     header {
         width: 100%;
+        background-color: #fbf7f1;
+        height: 5rem;
     }
     nav {
         width: 100%;
@@ -41,7 +43,10 @@
         color: black;
         font-size: 1.25rem;
         font-family: var(--mainFont);
-        padding: 1rem;
-        background-color: antiquewhite;
+        padding: 1.75rem;
+        transition: .25s ease-out;
+    }
+    a:hover {
+        color: var(--mainColor);
     }
 </style>
