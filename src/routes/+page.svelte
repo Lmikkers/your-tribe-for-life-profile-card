@@ -37,7 +37,7 @@
                 <ul>
                     <li><a href="mailto:larissa.mikkers@hva.nl"><img src="{mailIcon}" alt="mail icoon"></a></li>
                     <li><a href="https://github.com/{data.persons.github_handle}" target="_blank"><img src="{githubIcon}" alt="github logo icoon"></a></li>
-                    <li><a href=""><img src="{instaIcon}" alt="instagram logo"></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/larissamikkers/"><img src="{instaIcon}" alt="instagram logo"></a></li>
                 </ul>
 
                 <button on:click={toggleFlip}><img src="{turnIcon}" alt="button to go to the back of the card"></button>
@@ -59,13 +59,18 @@
 
 <style>
     main {
-        /* min-height: 100vh; */
         height: calc(100vh - 5rem);
         display: grid;
         place-items: center;
         font-family: "Roboto", sans-serif;
         background: #fbf7f1;
         perspective: 1000px;
+    }
+    h1 {
+        font-size: 3.8rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 1.2rem;
     }
     h1.typeWriter {
         overflow: hidden;
