@@ -1,38 +1,62 @@
-# create-svelte
+# Profile card
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Dit is een profile card van Larissa Mikkers, gemaakt d.m.v. SvelteKit en Directus
 
-## Creating a project
+## Inhoudsopgave
+* [Beschrijving](#beschrijving)
+* [Kenmerken](#kenmerken)
+* [Installatie](#installatie)
+* [Gebruik](#gebruik)
+* [Bronnen](#bronnen)
+* [Licentie](#licentie)
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Beschrijving
+Ik heb een profiel kaartje gemaakt via Sveltekit en Directus, ik laad data uit via de API. 
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+<img width="650" alt="image" src="https://github.com/user-attachments/assets/d0bcd4c9-eef9-47e2-8b8c-d7dc8a22d7b1">
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Kenmerken
+- Sveltekit framework
+- Directus SDK
+- Vite
+- Vercel
+- Javascript
+- Css
 
-## Developing
+## Instalatie
+zorg dat je dit geinstalleerd hebt voordat je dit project lokaal wilt gaan gebruiken.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+<ul>
+   <li>
+      code editor zoals visual studio code of webstorm
+   </li>
+</ul>
 
-```bash
-npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+Volg deze stappen om dit project lokaal op te zetten in de terminal van je code editor:
+1. Clone de repository:
+   ```bash
+   git clone https://github.com/yujing-student/your-tribe-for-life-profile-card.git
+2. Ga naar de projectmap:
+   ```bash
+   cd your-tribe-for-life-profile-card
 
-## Building
+3. Installeer de vereiste dependencies:
+   ```bash
+   npm install
 
-To create a production version of your app:
+4. Start de ontwikkelserver:
+   ```bash
+   npm run dev
+   ```
 
-```bash
-npm run build
-```
+## Gebruik
+Je kan in de naviagatie naar verschillende pagina's en op het profiel kaartje kun je het omdraaien en zie je meer informatie over mij.
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Bronnen
+- [SvelteKit Docs - Creating a project](https://kit.svelte.dev/docs/creating-a-project)
+- [SvelteKit Docs - Project structure](https://kit.svelte.dev/docs/project-structure)
+- [SvelteKit Docs - Routing](https://kit.svelte.dev/docs/routing)
+- [SvelteKit Docs - Adapters](https://kit.svelte.dev/docs/adapters)
+- [SvelteKit on Vercel](https://vercel.com/docs/frameworks/sveltekit)
+- [Sveltekit tutorial](https://learn.svelte.dev/tutorial/welcome-to-svelte)
