@@ -244,14 +244,9 @@
         margin-bottom: .5rem;
     } */
     main {
-        font-family: Arial, sans-serif;
         padding: 2rem;
-        background-color: #f9f9f9;
-        color: #333;
-        max-width: 1200px;
+        color: var(--fontColor);
         margin: 0 auto;
-        border-radius: 10px;
-        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
     }
 
     h2, h3 {
