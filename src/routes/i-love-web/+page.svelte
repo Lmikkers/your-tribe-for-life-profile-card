@@ -8,6 +8,7 @@
 
 <main class="weloveweb">
     <h1>I-love-web</h1>
+
     <div class="container">
         <section class="sprints">
             <ul>
@@ -55,8 +56,9 @@
 
 h1 {
     font-size: 2.5rem;
+    font-weight: 600;
     text-align: center;
-    color: #0073e6;
+    color: var(--mainColor);
     margin-bottom: 1.5rem;
 }
 
@@ -72,7 +74,6 @@ h1 {
     flex-direction: column;
     gap: 1.5rem;
 }
-
 .sprints li a {
     color: #333;
     font-size: 1.25rem;
@@ -85,23 +86,20 @@ h1 {
     transition: background 0.3s ease, color 0.3s ease;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
-
 .sprints li a:hover {
     background: #0073e6;
-    color: white;
+    color: var(--colorWhite);
 }
-
 .sprints li a:active {
     transform: scale(0.98);
 }
 
 section {
-    background-color: #fff;
+    background-color: var(--colorWhite);;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
-
 section h2 {
     color: #0073e6;
     margin-bottom: 1.5rem;

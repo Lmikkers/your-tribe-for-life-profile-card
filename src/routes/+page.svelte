@@ -58,6 +58,9 @@
 </main>
 
 <style>
+    body {
+        background-color: var(--secondColor);
+    }
     main {
         height: calc(100vh - 5rem);
         display: grid;

@@ -8,6 +8,8 @@
 :root {
     --mainColor: #ffa500;
     --secondColor: #fbf7f1;
+    --colorWhite: #fff;
+
     --fontColor: #1e1d1d;
     --hoverColor: #e19302;
 
@@ -16,7 +18,6 @@
 }
 body {
     font-family: var(--mainFont);
-    background-color: var(--secondColor);
 }
 
 h1 {

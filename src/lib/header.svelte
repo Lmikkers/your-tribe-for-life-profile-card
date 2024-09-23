@@ -16,13 +16,15 @@
 <style>
     header {
         width: 100%;
-        background-color: #fbf7f1;
         height: 5rem;
     }
     nav {
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 10fr 1fr;
+        position: fixed;
+        background: var(--secondColor);
+        box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
     }
     nav > a {
         display: flex;
@@ -41,7 +43,7 @@
     a {
         text-decoration: none;
         color: black;
-        font-size: 1.25rem;
+        font-size: 1rem;
         font-family: var(--mainFont);
         padding: 1.75rem;
         transition: .25s ease-out;
